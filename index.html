@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
-
+    <title>Travel Wasp</title>
     <!-- CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -13,30 +12,35 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/d5b956fb36.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- navbar  -->
     <nav class="navbar navbar-expand-lg bg-transparent">
       <div class="container">
-          <a class="navbar-brand fw-bolder" href="#">Travel Wasp</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse container d-flex-md justify-content-md-end" id="navbarNav">
+        <a class="navbar-brand fw-bolder" href="#">Travel Wasp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse container d-flex-md justify-content-md-end"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Reviews</a>
+              <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Gallery</a>
@@ -49,48 +53,116 @@
       </div>
     </nav>
     <!-- end of navbar -->
-    
 
     <!-- carousel 60vh -->
-    
-    <div id="carouselTravelWasp" class="carousel slide container" data-bs-ride="carousel">
+
+    <div
+      id="carouselTravelWasp"
+      class="carousel slide container"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="imgs/beach.jpeg" class="d-block w-100 rounded" alt="beach with a dog">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="fw-bolder">Faithful dog by your side</h1>
-            <p class="fw-medium">I believe in the OCEAN curing all bad moods.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="imgs/hike.jpg" class="d-block w-100 rounded" alt="walk with nature">
+          <img
+            src="imgs/hike.jpg"
+            class="d-block w-100 rounded"
+            alt="walk with nature"
+          />
           <div class="carousel-caption d-none d-md-block">
             <h1 class="fw-bolder">To walk with Nature</h1>
             <p class="fw-medium">The mountains are calling and I must go.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="imgs/kayak.jpg" class="d-block w-100 rounded" alt="kayaking">
+          <img
+            src="imgs/kayak.jpg"
+            class="d-block w-100 rounded"
+            alt="kayaking"
+          />
           <div class="carousel-caption d-none d-md-block">
             <h1 class="fw-bolder">Live life in Kayaks</h1>
-            <p class="fw-medium">Never let your fears paddle solo/p>
+            <p class="fw-medium">Never let your fears paddle solo/p></p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="imgs/caving.jpg" class="d-block w-100 rounded" alt="man cave">
+          <img
+            src="imgs/caving.jpg"
+            class="d-block w-100 rounded"
+            alt="man cave"
+          />
           <div class="carousel-caption d-none d-md-block">
             <h1 class="fw-bolder">Man Cave</h1>
-            <p class="fw-medium">You can always get out; there's never a dead end.</p>
+            <p class="fw-medium">
+              You can always get out; there's never a dead end.
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- end of carousel 60vh -->
-
-
-
-    
+    <!-- end of carousel -->
+    <section class="choose-us features py-5">
+      <div class="container travel-wasp">
+        <div class="row justify-content-md-center">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+            <!-- features -->
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                <i class="fa-solid fa-plane-departure"></i>
+                <h5 class="mt-sm-1 mt-md-3">Travel Arrangements</h5>
+                <p class="text-lg-left">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  alias rem at a quia corrupti!
+                </p>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                <i class="fa-solid fa-chart-line""></i>
+                <h5 class="mt-sm-1 mt-md-3">Activies</h5>
+                <p class="text-lg-left">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  alias rem at a quia corrupti!
+                </p>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h5 class="mt-sm-1 mt-md-3">Location Manager</h5>
+                <p class="text-lg-left">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  alias rem at a quia corrupti!
+                </p>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                <i class="fa-solid fa-user-shield"></i>
+                <h5 class="mt-sm-1 mt-md-3">Private Guide</h5>
+                <p class="text-lg-left">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  alias rem at a quia corrupti!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+            <!-- images -->
+            <div class="row">
+              <div class="col-md-6 ps-md-5">
+                <img
+                  src="imgs/feature-1.jpg"
+                  class="img-fluid"
+                  alt="beach image"
+                />
+              </div>
+              <div class="col-md-6 mt-md-5 ps-md-5">
+                <img
+                  src="imgs/feature2.jpg"
+                  class="img-fluid"
+                  alt="beach image - maldives"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- JS script -->
 
