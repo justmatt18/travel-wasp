@@ -1,3 +1,12 @@
+/* utils */
+.primary-color { 
+    color: rgb(249, 171, 48);;
+}
+
+
+
+
+
 /* navbar */
 .navbar-brand:hover { 
     color: #6e7434;
@@ -21,4 +30,32 @@
 .features img {
     height: 320px;
     object-fit: cover;
+}
+
+/* destinations */
+
+.section-title button  {
+    background-color: rgba(249, 171, 48, 0.1);
+}
+
+.tr-price {
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+    position: relative;
+    top: -70px;
+    right: 0px;
+    color: #fff;
+    background-color: rgb(249, 171, 48);
+}
+
+.tr-price::before {
+    
+    content: '';
+    left: -19px;
+    top: 0px;
+    position: absolute;
+    border-top: 19px solid transparent;
+    border-right: 19px solid rgb(249, 171, 48);
+    border-bottom: 21px solid transparent;
 }
