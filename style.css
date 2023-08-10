@@ -1,6 +1,6 @@
 /* utils */
 .primary-color { 
-    color: rgb(249, 171, 48);;
+    color: rgb(249, 171, 48);
 }
 
 
@@ -24,7 +24,7 @@
 /* choose us section */
 .features i {
     font-size: 42px;
-    color: #6e7434;
+    color: rgb(249, 171, 48);
 }
 
 .features img {
@@ -59,3 +59,31 @@
     border-right: 19px solid rgb(249, 171, 48);
     border-bottom: 21px solid transparent;
 }
+
+
+/* services */
+
+.services {
+    background-color: #F4F9FF;
+}
+
+.services i {
+    font-size: 42px;
+    color: #6e7434;
+}
+
+.service {
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.service i {
+    font-size: 42px;
+    color: rgb(249, 171, 48);
+}
+
+/* gallery */
+/* .section-title h2 {
+    
+} */
