@@ -7,6 +7,8 @@
 ## Tools 
 - Bootstrap 5 
 - Font Awesome Icons
+- Owl Carousel JS
+- Animate On Scroll Library
 
 ### Navbar
 - Home
