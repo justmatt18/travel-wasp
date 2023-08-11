@@ -1,11 +1,7 @@
 /* utils */
 .primary-color { 
-    color: rgb(249, 171, 48);
+    color: rgb(249, 171, 48) !important;
 }
-
-
-
-
 
 /* navbar */
 .navbar-brand:hover { 
@@ -35,7 +31,12 @@
 /* destinations */
 
 .section-title button  {
-    background-color: rgba(249, 171, 48, 0.1);
+    background-color: rgba(249, 171, 48, 0.1) !important;
+}
+
+.single-deal {
+    border: 1px solid #ebe6de;
+    border-radius: 6px;
 }
 
 .tr-price {
@@ -43,14 +44,13 @@
     font-weight: 600;
     float: right;
     position: relative;
-    top: -70px;
-    right: 0px;
+    top: -90px;
+    right: -17px;
     color: #fff;
     background-color: rgb(249, 171, 48);
 }
 
 .tr-price::before {
-    
     content: '';
     left: -19px;
     top: 0px;
@@ -60,9 +60,7 @@
     border-bottom: 21px solid transparent;
 }
 
-
 /* services */
-
 .services {
     background-color: #F4F9FF;
 }
@@ -83,7 +81,19 @@
     color: rgb(249, 171, 48);
 }
 
+
+.tour-rating .rating_count {
+    float: right;
+    color: #727272;
+}
+
 /* gallery */
-/* .section-title h2 {
-    
-} */
+
+.single-gallery h5 {
+
+    font-weight: 600;
+    float: inherit;
+    position: relative;
+    top: -50px;
+    color: #fff;
+}
