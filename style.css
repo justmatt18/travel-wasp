@@ -1,10 +1,10 @@
 /* utils */
-.primary-color { 
+.primary-color {
     color: rgb(249, 171, 48) !important;
 }
 
 /* navbar */
-.navbar-brand:hover { 
+.navbar-brand:hover {
     color: #6e7434;
 }
 
@@ -30,7 +30,7 @@
 
 /* destinations */
 
-.section-title button  {
+.section-title button {
     background-color: rgba(249, 171, 48, 0.1) !important;
 }
 
@@ -88,7 +88,9 @@
 }
 
 /* gallery */
-
+.single-gallery img {
+    /* for animation  */
+}
 .single-gallery h5 {
 
     font-weight: 600;
@@ -96,4 +98,17 @@
     position: relative;
     top: -50px;
     color: #fff;
+}
+
+
+/* packages */
+.tour-text {
+    position: relative;
+    bottom: 100px;
+    color: #fff;
+    background-color: rgba(249, 171, 48, 0.1);
+}
+
+.pack-price {
+    font-weight: 900;
 }
