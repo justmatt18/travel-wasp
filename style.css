@@ -1,11 +1,22 @@
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
 /* utils */
 .primary-color {
     color: rgb(249, 171, 48) !important;
 }
 
+.primary-bg {
+    background-color: rgb(249, 171, 48) !important;
+}
+
 /* navbar */
 .navbar-brand:hover {
-    color: #6e7434;
+    color: rgb(249, 171, 48);
 }
 
 
@@ -111,4 +122,111 @@
 
 .pack-price {
     font-weight: 900;
+}
+
+
+/* contact us */
+
+.contact-us {
+    background-color: #F4F9FF;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 4px 0px 0px 4px;
+    padding: 55px 30px 55px 55px;
+    height: 100%;
+}
+
+.form-control:focus {
+    border-color: rgb(249, 171, 48) !important;
+    box-shadow: 0 0 0 0.25rem rgb(249, 171, 48, 0.1) !important;
+}
+
+.submit-btn {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: rgb(249, 171, 48);
+    border-color: rgb(249, 171, 48);
+}
+
+.submit-btn:hover {
+    background-color: #00102A;
+}
+
+.contact-info {
+    padding: 55px 40px;
+    height: 100%;
+    border-radius: 0 4px 4px 0;
+}
+
+.single-info {
+    background-color: #FFF;
+    padding: 18px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.single-info i {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(249, 171, 48, 0.1);
+    color: #333;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    line-height: 40px;
+
+}
+
+.sigle-info p {
+    font-weight: 500;
+}
+
+/* footer */
+
+.footer {
+    padding: 70px 0 40px;
+    background-color: #00102A;
+    color: #fff;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(249, 171, 48, 0.3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+ul, li {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:hover {
+    color: rgb(249, 171, 48);
+}
+
+.sub-btn { 
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(249, 171, 48);
+    border-color: rgb(249, 171, 48);
+}
+
+.submit-btn:hover {
+    background-color: #00102A;
 }
