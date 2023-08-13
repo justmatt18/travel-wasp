@@ -29,13 +29,13 @@ a.nav-link {
     font-size: 18px;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     color: rgb(249, 171, 48);
 }
 
 .nav-link-scrolled:hover {
     color: #fff !important;
-}
+} */
 
 .navbar-scrolled {
     background-color: rgb(249, 171, 48) !important;
