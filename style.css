@@ -15,20 +15,40 @@ body {
 }
 
 /* navbar */
+.navbar {
+    transition: all 0.5s;
+}
 .navbar-brand:hover {
     color: rgb(249, 171, 48);
+}
+.navbar-brand-scrolled:hover {
+    color: #fff !important;
 }
 
 a.nav-link {
     font-size: 18px;
 }
 
-.nav-item a:hover {
+.nav-link:hover {
     color: rgb(249, 171, 48);
+}
+
+.nav-link-scrolled:hover {
+    color: #fff !important;
+}
+
+.navbar-scrolled {
+    background-color: rgb(249, 171, 48) !important;
+    box-shadow: 0 3px 10px rgba(249, 171, 48, 0.3);
 }
 
 
 /* home carousel */
+.carousel {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .carousel-item img {
     width: 100%;
     height: 60vh;
@@ -107,9 +127,6 @@ a.nav-link {
 }
 
 /* gallery */
-.single-gallery img {
-    /* for animation  */
-}
 .single-gallery h5 {
 
     font-weight: 600;

@@ -8,13 +8,11 @@
 
 
 	<!-- CSS -->
+
+	<!-- BOOTSTRAP -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 	<link rel="stylesheet" href="style.css" />
-
-	<!-- OWL CAROUSEL CSS -->
-	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
 	<!-- Font Awesome Icons -->
 	<script src="https://kit.fontawesome.com/d5b956fb36.js" crossorigin="anonymous"></script>
@@ -25,9 +23,9 @@
 
 <body>
 	<!-- NAVBAR  -->
-	<nav class="navbar navbar-expand-lg bg-transparent">
+	<nav class="navbar sticky-top navbar-expand-lg">
 		<div class="container">
-			<a class="navbar-brand fw-bolder" href="#">Travel Wasp</a>
+			<a class="navbar-brand fw-bolder" href="/">Travel Wasp</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -54,17 +52,17 @@
 
 	<!-- carousel 60vh -->
 
-	<div id="carouselTravelWasp" class="carousel slide container" data-bs-ride="carousel">
+	<div id="carouselTravelWasp" class="carousel slide container-fluid" data-bs-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="imgs/carousel/hike.jpg" class="d-block w-100 rounded" alt="walk with nature" />
+				<img src="imgs/carousel/hike.jpg" class="d-block w-100" alt="walk with nature" />
 				<div class="carousel-caption">
 					<h1 class="fw-bolder">To walk with Nature</h1>
 					<p class="fw-medium">The mountains are calling and I must go.</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="imgs/carousel/island-beach.jpeg" class="d-block w-100 rounded" alt="kayaking" />
+				<img src="imgs/carousel/island-beach.jpeg" class="d-block w-100" alt="kayaking" />
 				<div class="carousel-caption "> <!-- d-none d-md-block -->
 					<h1 class="fw-bolder">Live life in Kayaks</h1>
 					<p class="fw-medium">Never let your fears paddle solo</p>
@@ -72,7 +70,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="imgs/carousel/caving.jpg" class="d-block w-100 rounded" alt="man cave" />
+				<img src="imgs/carousel/caving.jpg" class="d-block w-100" alt="man cave" />
 				<div class="carousel-caption">
 					<h1 class="fw-bolder">Man Cave</h1>
 					<p class="fw-medium">
@@ -330,32 +328,32 @@
 					
 					<div class="col-lg-4 col-md-6 col-12">
 						<div class="single-gallery">
-							<img src="imgs/gallery/iceland.jpeg" alt="Iceland" class="img-fluid">
-							<h5 class="text-center">Iceland</h5>
+							<img src="imgs/gallery/peru.jpg" alt="Peru" class="img-fluid">
+							<h5 class="text-center">Machu Picchu, Peru</h5>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
 						<div class="single-gallery">
-							<img src="imgs/gallery/mayon.jpg" alt="Mayon Volcano" class="img-fluid">
-							<h5 class="text-center">Philippines</h5>
+							<img src="imgs/gallery/canada.jpg" alt="Canada" class="img-fluid">
+							<h5 class="text-center">Morained Lake, Canada</h5>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
 						<div class="single-gallery">
-							<img src="imgs/gallery/indonesia.jpeg" alt="Indonesia" class="img-fluid">
-							<h5 class="text-center">Indonesia</h5>
+							<img src="imgs/gallery/thailand.jpg" alt="Thailand" class="img-fluid">
+							<h5 class="text-center">Sea, Thailand</h5>
 						</div>
 					</div>
 					<div class="col-md-6 col-12">
 						<div class="single-gallery">
-							<img src="imgs/gallery/south-korea.png" alt="South Korea" class="img-fluid">
-							<h5 class="text-center">South Korea</h5>
+							<img src="imgs/gallery/uae.jpg" alt="United Arab Emirates" class="img-fluid">
+							<h5 class="text-center">United Arab Emirates</h5>
 						</div>
 					</div>
 					<div class="col-md-6 col-12">
 						<div class="single-gallery">
-							<img src="imgs/gallery/japan.jpg" alt="Japan" class="img-fluid">
-							<h5 class="text-center">Japan</h5>
+							<img src="imgs/gallery/egypt.jpg" alt="Egypt" class="img-fluid">
+							<h5 class="text-center">Egypt</h5>
 						</div>
 					</div>
 				</div>
@@ -595,14 +593,12 @@
 
 	<!-- JS script -->
 
+	<!-- BOOTSTRAP -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
 		crossorigin="anonymous"></script>
-	<!-- OWL CAROUSEL JS -->
-	<script src="jquery.min.js"></script>
-	<script src="owlcarousel/owl.carousel.min.js"></script>
 
-	<!-- JQEURY CDN -->
+	<!-- JQEURY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	<script src="index.js"></script>
 </body>
