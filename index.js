@@ -1,4 +1,7 @@
 $(() => {
+    AOS.init();
+
+    
     // change navbar bg on scroll
     const navbar = document.querySelector('.navbar');
     const navBrand = document.querySelector('.navbar-brand');
