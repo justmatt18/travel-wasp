@@ -7,7 +7,7 @@
 ## Tools 
 - Bootstrap 5 
 - Font Awesome Icons
-- Owl Carousel JS
+- Owl Carousel JS/Slick SLider
 - Animate On Scroll Library
 
 ### Navbar
@@ -15,6 +15,13 @@
 - Service
 - Gallery
 - Contact
+
+
+#### Todos
+- Compress images
+- image sizes 
+- Animate On scroll
+- Owl Carousel JS/Slick SLider
 
 
 
