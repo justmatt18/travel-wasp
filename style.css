@@ -19,6 +19,14 @@ body {
     color: rgb(249, 171, 48);
 }
 
+a.nav-link {
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: rgb(249, 171, 48);
+}
+
 
 /* home carousel */
 .carousel-item img {
@@ -228,5 +236,28 @@ a:hover {
 }
 
 .submit-btn:hover {
+    background-color: #00102A;
+}
+
+
+.top-control {
+    position: fixed;
+    font-size: 20px;
+    color: #fff;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    background-color: rgb(249, 171, 48);
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    transition: all .2s ease 0s;
+}
+
+.top-control i {
+    margin-left: 12px;
+}
+.top-control:hover {
     background-color: #00102A;
 }
