@@ -7,7 +7,6 @@
 ## Tools 
 - Bootstrap 5 
 - Font Awesome Icons
-- Owl Carousel JS/Slick SLider
 - Animate On Scroll Library
 
 ### Navbar
@@ -17,11 +16,30 @@
 - Contact
 
 
-#### Todos
-- Compress images
-- image sizes 
-- Animate On scroll
-- Owl Carousel JS/Slick SLider
+### Project status
 
+- [✔️] Design Bootstrap 5
+- [✔️] Sections
+    - [✔️] Navbar
+    - [✔️]Landing Carousel Images
+    - [✔️] Services
+    - [✔️] Packages
+    - [✔️] Gallery
+    - [✔️] Contact
+    - [✔️] Footer
+- [✔️] AOS library
+- [✔️] Compress images
+- [✔️] image sizes
+- [🚧] Slick Slider
+
+
+
+**What I learn in this project:**
+- bootstrap 5 
+- aos library
+- change navbar bg-color onscroll
+- adding and floating text to images
+
+_Happy Coding! :heart: :beer:_
 
 
