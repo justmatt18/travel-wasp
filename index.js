@@ -16,14 +16,18 @@ $(() => {
             navBrand.classList.remove(`navbar-brand-scrolled`);
             navLink.classList.remove(`nav-link-scrolled`);
         }
-    })
+    });
 
     // scroll to Top button - rocket icon
     $('#topControl').click(() => {
         $("html, body").scrollTop(0);
         return false;
-    })
+    });
 
-    
-   
+    // scrollSpy
+    const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        rootMargin: '0px 0px -10%',
+        smoothScroll: true
+    });
+    scrollSpy.refresh();
 })
